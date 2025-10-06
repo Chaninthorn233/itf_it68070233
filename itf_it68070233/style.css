@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Mojangles";
+    src: url(mojangles.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(39, 130, 250);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #dd0510;
+    color: rgb(75, 91, 231);
+}
+
+p {
+    margin: 0;
+    font-family:"Mojangles";
+}
+h2 {
+    font-family:"Mojangles";
+}
+h3 {
+    font-family:"Mojangles";
+}
+h4 {
+    font-family: "Mojangles";
+}
+input {
+    font-family:"Mojangles";
+    width: 100px;
+}
+button {
+    font-family: "Mojangles";
+    margin-top: 10px;
+}
+select {
+    font-family:"Mojangles";
+}
+textarea {
+    font-family: "Mojangles";
+    background-color: rgb(185, 216, 248);
+}
+
+
+#my-title {
+    color: rebeccapurple;
+}
+
+.container {
+    margin: 8px 32px;
+}
+
+.Title {
+    display: flex;
+}
+
+.MeImage {
+    margin-right: 20px;
+}
+
+.UserActionText {
+    width: 100%;
+    resize: none;
+}
+
+.MainBox {
+    display: flex;
+    width: 100%;
+}
+
+.SecondBox {
+    width: 50%;
+}
+.SubBox {
+    display: flex;
+    margin-bottom: 20px;
+}
+.TextInput {
+    display: flex;
+}
+.TopicName {
+    padding-top: 0;
+    margin-top: 0px;
+}
+.InfoBox {
+    align-items: center; 
+    margin-bottom: 5px;
+}
+.InfoBox input {
+    height: 16px;
+    flex-grow: 1;
+}
+.InfoBox p {
+    width: 150px;
+}
+.Icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+/* From Uiverse.io by Mhyar-nsi */ 
+button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
